@@ -16,5 +16,6 @@ function addItem() {
 
   buttonEl.onclick = function removeItem() {
     ul.removeChild(liEl);
+    input.focus();
   };
 }
